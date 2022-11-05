@@ -1,0 +1,61 @@
+<main>
+<!-- ew david -->
+
+<button
+
+(click)="logInButton()"
+type = "submit"
+>Log In
+</button>
+
+<button
+
+(click)="registerButton()"
+color = "accent">Register
+</button>
+
+<!-- ew -->
+
+<div *ngIf="logIn" class="popupContainer">
+<form (submit) = "assignLogIn(loginForm)" #loginForm = "ngForm">
+<section *ngIf="logIn" class="popup">
+
+  <mat-form-field color = "accent"  appearance="outline">
+    <mat-label>username:</mat-label>
+    <input matInput type = "text" name = "username" ngModel #username= "ngModel" required>
+
+  </mat-form-field>
+  <br>
+
+  <button type = "submit"> log in </button>
+  <button (click)="logInButton()"> back </button>
+
+</section>
+</form>
+</div>
+
+
+
+<div *ngIf="register" class="popupContainer">
+  <form (submit) = "assignNewUser(registerForm)" #registerForm = "ngForm">
+    <section *ngIf="register" class="popup">
+
+      <mat-form-field color = "accent"  appearance="outline">
+        <mat-label>username:</mat-label>
+        <input matInput type = "text" name = "username" ngModel #username= "ngModel" required>
+
+      </mat-form-field>
+      <mat-form-field color = "accent"  appearance="outline">
+        <mat-label>email:</mat-label>
+        <input matInput type = "text" name = "email" ngModel #email= "ngModel" email required>
+        <mat-error *ngIf="email.invalid">plz enter valid email</mat-error>
+      </mat-form-field>
+      <br>
+
+        <button type="submit"> register </button>
+        <button (click)="registerButton()"> back </button>
+    </section>
+  </form>
+</div>
+<br>
+</main>

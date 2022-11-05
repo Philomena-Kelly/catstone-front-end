@@ -1,0 +1,43 @@
+body {
+}
+.margins {
+  margin: 5vh;
+}
+
+main {
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beheld {
+  max-width: 90vw;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px 50px 5px 50px;
+  flex-flow: column wrap;
+  border-style: solid;
+  border-top-color: #FFDE9E;
+  border-left-color: #FFDE9E;
+  border-bottom-color: #F2A7FF;
+  border-right-color: #F2A7FF;
+}
+
+
+.holdme {
+  max-width: 80vw;
+  /* min-height: 500px; */
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 50px; */
+  flex-flow: row wrap;
+}

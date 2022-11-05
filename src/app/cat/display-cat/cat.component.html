@@ -1,0 +1,17 @@
+<form (submit) = "getCat(cat)" #cat = "ngForm">
+    <mat-form-field color = "accent"  appearance="outline">
+      <mat-label>search cat</mat-label>
+      <input matInput type = "text" name = "name" ngModel #name= "ngModel">
+    </mat-form-field>
+ <button
+
+        type = "submit"
+        color = "accent">go ->
+    </button>
+  </form>
+
+
+
+<section *ngIf="isLoaded" class="hidden">
+{{sendCat()}}
+</section>

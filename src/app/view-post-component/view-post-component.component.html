@@ -1,0 +1,20 @@
+<!-- <section *ngIf="isLoaded"> -->
+<!-- {{getPosts()}} -->
+<!-- </section> -->
+
+<section *ngIf = "postList.length > 0" multi="true">
+  <section *ngFor = "let post of postList" >
+
+    <section class="post"><span class="sender">{{post["sender"]}} </span><br>
+    <span class="message">{{post["message"]}}</span>
+    </section>
+  </section>
+</section>
+
+<section *ngIf = "postList.length === 0" multi="true">
+
+    <section class="post">
+    <span class="message">no pals today :(</span>
+    </section>
+
+</section>

@@ -1,0 +1,14 @@
+<form (submit) = "onAddPost(postForm)" #postForm = "ngForm" >
+
+  <mat-form-field color = "accent"  appearance="outline">
+    <mat-label>message:</mat-label>
+    <input matInput type = "text" name = "message" ngModel #message= "ngModel" required>
+  </mat-form-field>
+
+
+
+  <button class="treat"
+  type = "submit"
+  >
+</button>
+</form>

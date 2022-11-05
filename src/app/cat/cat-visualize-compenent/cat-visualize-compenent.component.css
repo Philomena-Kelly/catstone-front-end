@@ -1,0 +1,55 @@
+.boxy {
+  width: 450px;
+  height: 450px;
+  text-align: left;
+
+}
+
+.bg {
+  background-image: url('src/app/images/BIG_cat_lines.svg');
+  background-size: cover;
+}
+
+.blackAndWhite {
+  background-image: url('src/app/images/colors/BIG_color_black_and_white.svg');
+  background-size: cover;
+}
+.black {
+  background-image: url('src/app/images/colors/SMALL_color_black.png');
+}
+.calico {
+  background-image: url('src/app/images/colors/SMALL_color_calico.png');
+}
+.grey {
+  background-image: url('src/app/images/colors/SMALL_color_grey.png');
+}
+.orange {
+  background-image: url('src/app/images/colors/SMALL_color_orange.png');
+}
+.striped {
+  background-image: url('src/app/images/colors/SMALL_color_striped.png');
+}
+.white {
+  background-image: url('src/app/images/colors/SMALL_color_white.png');
+}
+
+
+.rain {
+  background-image: url('src/app/images/accessories/SMALL_weather_rainy.png');
+}
+.cloudy {
+  background-image: url('src/app/images/accessories/SMALL_weather_cloudy.png');
+}
+.snow {
+  background-image: url('src/app/images/accessories/SMALL_weather_snow.png');
+}
+.sunny {
+  background-image: url('src/app/images/accessories/BIG_weather_sunny.svg');
+  background-size: cover;
+}
+.veryhot {
+  background-image: url('src/app/images/accessories/SMALL_weather_very_hot.png');
+}
+.verycold {
+  background-image: url('src/app/images/accessories/SMALL_weather_very_cold.png');
+}
