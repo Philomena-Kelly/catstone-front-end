@@ -1,27 +1,19 @@
-# CatstoneRepo
+# Catstone Frontend - *Click **[here](https://github.com/Philomena-Kelly/Catstone-backend)** for backend.*
+<br>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+> *Brought to you by the nostalgia from the heyday of online virtual pet sites and games, Catstone lets you create your very own pet cat! You can choose your cat's color and location, and they will change outfits depending on the weather.*
+> 
+> *Users can visit their friends cats, leave treats, and even add comments back and forth to eachother. Catstone is aimed to be a simple, carefree experience to help unwind and relive those memories.*
 
-## Development server
+This webapp was created for the final Captstone project of Ada Developers Academy. It was developed in under a month using the MEAN stack - MongoDB, Express, Angular, and NodeJS. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Catstone makes use of the [Weather API](https://www.weatherapi.com/) to change the cats' "ourfits". The remaining API routes that connect to MongoDB are located in the backend repo.
 
-## Code scaffolding
+Catstone is currently *incomplete* and not currently available for the public, but stay tuned for updates!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Future Plans:
+* Incorporating Passport to create a user authentication system.
+* Updating the treats to have different options.
+* "Friends" lists.
+* Messaging system.
+* Deployment.
