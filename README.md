@@ -7,7 +7,7 @@
 
 This webapp was created for the final Captstone project of Ada Developers Academy. It was developed in under a month using the MEAN stack - MongoDB, Express, Angular, and NodeJS. 
 
-Catstone makes use of the [Weather API](https://www.weatherapi.com/) to change the cats' "ourfits". The remaining API routes that connect to MongoDB are located in the backend repo.
+Catstone makes use of the [Weather API](https://www.weatherapi.com/) to change the cats' "outfits". The remaining API routes that connect to MongoDB are located in the backend repo.
 
 Catstone is currently *incomplete* and not currently available for the public, but stay tuned for updates!
 
